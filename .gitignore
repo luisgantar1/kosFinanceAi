@@ -1,0 +1,25 @@
+# Python Environment & Virtualenv
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.streamlit/secrets.toml
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Chroma & Vector DB Local Storage
+chroma_db/
+faiss_index/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
